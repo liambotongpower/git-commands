@@ -42,3 +42,28 @@
 10. git clean --force: Force deletion of files and directories
 11. git clean --interactive: Show and clean files interactively
 12. git clean --quiet: Be quiet, only report errors
+
+## Git Commit Commands
+
+1. git commit: Record changes to the repository
+2. git commit -a: Automatically stage modified and deleted files
+3. git commit -c: Reuse commit message and edit it
+4. git commit -C: Reuse commit message without editing
+5. git commit -e: Edit commit message
+6. git commit -F: Take commit message from file
+7. git commit -m: Use specified message for commit
+8. git commit -n: Bypass pre-commit and commit-msg hooks
+9. git commit -p: Use interactive patch selection
+10. git commit -q: Suppress commit summary message
+11. git commit -s: Add Signed-off-by trailer
+12. git commit -v: Show unified diff in commit message
+13. git commit --amend: Replace tip of current branch with new commit
+14. git commit --author: Override commit author
+15. git commit --date: Override author date
+16. git commit --dry-run: Show what would be committed
+17. git commit --fixup: Create fixup commit
+18. git commit --no-edit: Use commit message without editing
+19. git commit --no-verify: Bypass pre-commit and commit-msg hooks
+20. git commit --reset-author: Reset author information
+21. git commit --squash: Create squash commit
+22. git commit --status: Include status in commit message
