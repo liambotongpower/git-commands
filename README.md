@@ -1,3 +1,3 @@
 # git-commands
 
-This repository contains a csv file with git commands and their sources
+This repository contains a csv file with useful git commands and their sources
