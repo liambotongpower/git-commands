@@ -67,3 +67,50 @@
 20. git commit --reset-author: Reset author information
 21. git commit --squash: Create squash commit
 22. git commit --status: Include status in commit message
+
+## Git Pull Commands
+
+1. git pull: Fetch from and integrate with another repository or local branch
+2. git pull -a: Append ref names and object names to FETCH_HEAD
+3. git pull -f: Force update of local branches
+4. git pull -j: Set number of parallel children for fetching
+5. git pull -k: Keep downloaded pack
+6. git pull -p: Remove remote-tracking references that no longer exist
+7. git pull -q: Be quiet, suppress progress reporting
+8. git pull -r: Rebase current branch on top of upstream branch
+9. git pull -t: Fetch all tags from remote
+10. git pull -v: Be verbose, show progress
+11. git pull --all: Fetch all remotes
+12. git pull --atomic: Use atomic transaction to update refs
+13. git pull --autostash: Create temporary stash before operation
+14. git pull --depth: Limit fetching to specified number of commits
+15. git pull --dry-run: Show what would be done without making changes
+16. git pull --ff-only: Only update if there is no divergent local history
+17. git pull --force: Force update of local branches
+18. git pull --no-edit: Accept auto-generated merge message
+19. git pull --no-ff: Create merge commit even when fast-forward is possible
+20. git pull --no-rebase: Merge upstream branch into current branch
+21. git pull --no-tags: Disable automatic tag following
+22. git pull --progress: Force progress status reporting
+23. git pull --rebase: Rebase current branch on top of upstream branch
+24. git pull --set-upstream: Add upstream reference after successful fetch
+25. git pull --squash: Create single commit instead of merge
+26. git pull --strategy: Use specified merge strategy
+27. git pull --unshallow: Convert shallow repository to complete one
+28. git pull --verify-signatures: Verify tip commit of side branch
+
+## Git Reset Commands
+
+1. git reset: Reset current HEAD to the specified state
+2. git reset -N: Mark removed paths as intent-to-add
+3. git reset -p: Interactively select hunks to reset
+4. git reset -q: Be quiet, only report errors
+5. git reset --hard: Reset index and working tree
+6. git reset --keep: Reset index entries and update files in working tree
+7. git reset --merge: Reset index and update files in working tree
+8. git reset --mixed: Reset index but not working tree
+9. git reset --no-refresh: Skip refreshing index after mixed reset
+10. git reset --pathspec-from-file: Take pathspec from file
+11. git reset --quiet: Be quiet, only report errors
+12. git reset --refresh: Refresh index after mixed reset
+13. git reset --soft: Reset HEAD without touching index or working tree
